@@ -1,0 +1,76 @@
+body {
+    background-color: #f5f0f5;
+    color: #302633;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    font-family: "Sedan", serif;
+    text-align: center;
+    color: #8b4775;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #8b4775;
+    font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+    font-family: "Lora", serif;
+}
+
+
+@font-face {
+    font-family: "Top Secret";
+    src: url("fonts/Top Secret.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gimme Danger";
+    src: url("fonts/Gimme Danger.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LL Cooper";
+    src: url("fonts/LLCOOPER.TTF") format("truetype");
+}
+
+.top-secret {
+    font-family: "Top Secret", sans-serif;
+}
+
+.gimme-danger {
+    font-family: "Gimme Danger", sans-serif;
+}
+
+.ll-cooper {
+    font-family: "LL Cooper", sans-serif;
+}
+
+
+a {
+    color: #8b4775;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin: 10px 0;
+}
