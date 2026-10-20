@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(90deg, #0664A4, #12A1E6, #05B1BF, #8EDEF7, #ECFAFD);
+}
+
+h1 { 
+    color: #0664A4;
+}
+
+h2{
+    color: #12A1E6;
+}
+
+.caixa {
+    border: 8px solid white;
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 600px;
+    background-color: white;
+    margin: 0% 30%;
+    box-shadow: 5px 5px 10px  black;
+}
