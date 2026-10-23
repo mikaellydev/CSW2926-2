@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: darkolivegreen;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+h1, h3{
+    text-align: center;
+    color: rgb(196, 27, 27);
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.flex-start{
+    width: 95%;
+    height: 100px;
+    background-color: darkorange;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-start-item{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.flex-end{
+    width: 95%;
+    height: 100px;
+    background-color: darkorange;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-end-item{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.center{
+    width: 95%;
+    height: 100px;
+    background-color: darkorange;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.center-item{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.space-between{
+    width: 95%;
+    height: 100px;
+    background-color: darkorange;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-between-item{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.space-around{
+    width: 95%;
+    height: 100px;
+    background-color: darkorange;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-around-item{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    background-color: darkorange;
+    border-radius: 7%;
+    margin-left: 10px;
+}
+
+.item{
+    width: 250px;
+    height: 40px;
+    background-color: darkorange;
+    border-radius: 90px;
+    margin-right: 10px;
+}
+
+.galeria{
+    width: 95%;
+    height: 400px;
+    background-color: khaki;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 16px;
+}
+
+.galeria-item1{
+    height: 150px;
+    background-color: darkseagreen;
+    border-radius: 20px;
+    flex-basis: 250px;
+}
+
+.galeria-item2{
+    height: 150px;
+    background-color: darkseagreen;
+    border-radius: 20px;
+    flex-basis: 250px;
+}
+
+.galeria-item3{
+    height: 150px;
+    background-color: darkseagreen;
+    border-radius: 20px;
+    flex-basis: 250px;
+}
+
+.galeria-item4{
+    height: 150px;
+    background-color: darkseagreen;
+    border-radius: 20px;
+    flex-basis: 250px;
+}
+
+.galeria-item5{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.galeria-item6{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.galeria-item7{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.galeria-item8{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.galeria-item9{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.galeria-item10{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.galeria-item11{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
